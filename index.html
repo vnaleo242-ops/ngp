@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ Mô Phỏng Vật Lý</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f9; /* Màu nền nhẹ */
+            color: #1f2937; /* Màu chữ tối */
+        }
+        .card {
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="p-8">
+
+    <header class="text-center mb-12">
+        <h1 class="text-5xl font-extrabold text-blue-700 mb-2">⚛️ Thư Viện Mô Phỏng Vật Lý</h1>
+        <p class="text-xl text-gray-600">Chọn một chủ đề mô phỏng để bắt đầu khám phá!</p>
+    </header>
+
+    <main class="max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <a href="dao-dong-dieu-hoa.html" class="card block p-6 bg-white rounded-xl shadow-lg border border-gray-200 hover:border-blue-500">
+                <div class="text-3xl mb-3">🔄</div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Dao Động Điều Hòa & Chuyển Động Tròn Đều</h2>
+                <p class="text-gray-500">Mô phỏng mối liên hệ giữa dao động điều hòa (SHM) và chuyển động tròn đều (UCM).</p>
+            </a>
+
+            <a href="con-lac-donhoacloxo.html" class="card block p-6 bg-white rounded-xl shadow-lg border border-gray-200 hover:border-blue-500">
+                <div class="text-3xl mb-3">⚖️</div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Con Lắc Đơn hoặc Con Lắc Lò Xo</h2>
+                <p class="text-gray-500">Phân tích các tham số ảnh hưởng đến chu kỳ và biên độ của con lắc.</p>
+            </a>
+
+            <a href="songdoc_songngang.html" class="card block p-6 bg-white rounded-xl shadow-lg border border-gray-200 hover:border-blue-500">
+                <div class="text-3xl mb-3">〰️</div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Mô Phỏng Sóng Dọc & Sóng Ngang</h2>
+                <p class="text-gray-500">Trực quan hóa sự khác biệt giữa hai loại sóng cơ học.</p>
+            </a>
+            
+            <a href="giao thoa sóng cơ.html" class="card block p-6 bg-white rounded-xl shadow-lg border border-gray-200 hover:border-blue-500">
+                <div class="text-3xl mb-3">🌊</div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Giao Thoa Sóng Cơ</h2>
+                <p class="text-gray-500">Quan sát hiện tượng giao thoa của hai nguồn sóng kết hợp.</p>
+            </a>
+            
+            <a href="song_sat_dan.html" class="card block p-6 bg-white rounded-xl shadow-lg border border-gray-200 hover:border-blue-500">
+                <div class="text-3xl mb-3">📉</div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Phân Tích Dao Động Tắt Dần</h2>
+                <p class="text-gray-500">Khảo sát sự suy giảm biên độ dao động theo thời gian.</p>
+            </a>
+
+            <a href="giao thoa sóng ánh sáng.html" class="card block p-6 bg-white rounded-xl shadow-lg border border-gray-200 hover:border-blue-500">
+                <div class="text-3xl mb-3">💡</div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Giao Thoa Sóng Ánh Sáng</h2>
+                <p class="text-gray-500">Mô phỏng thí nghiệm khe Young với ánh sáng đơn sắc, hai màu và ánh sáng trắng.</p>
+            </a>
+            
+        </div>
+    </main>
+    
+    <footer class="text-center mt-12 pt-6 border-t border-gray-300">
+        <p class="text-sm text-gray-500">Được xây dựng để hỗ trợ học tập và giảng dạy Vật lý.</p>
+    </footer>
+
+</body>
+</html>
